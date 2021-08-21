@@ -1,0 +1,327 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.social1{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+.bg-image{
+    background-image: url(./Images/neon5blur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+.social{
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(0.8rem);
+    border-radius: 0px 10px 10px 0px;
+    position: fixed;
+    bottom: 25%;
+    left: 0%;
+}
+.social ul li{
+    list-style: none;
+    padding: 20px 15px;
+}
+.social li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition-duration: 0.4s;
+}
+.social a:hover{
+    transform: scale(0.9);
+    color: rgba(0, 0, 0, 0.699);
+}
+.freecodecamp{
+    position: fixed;
+    bottom: 40%;
+    right: -1%;
+    margin: auto 2%;
+    color: #fff;
+}
+.freecodecamp p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.freecodecamp ul li{
+    list-style: none;
+    padding: 10px;
+}
+.freecodecamp li a{
+    text-decoration: none;
+    color:  #fff;
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    padding: 5px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+.freecodecamp a:hover{
+    background: rgba(255, 255, 255, 0.514);
+    backdrop-filter: blur(0.8rem);
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+header{
+    width: 100%;
+    color: rgba(221, 221, 221, 0.712);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+header h2{
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px 0px;
+}
+header img{
+    width: 10%;
+    align-self: center;
+}
+.firstMain{
+    margin: 4% auto;
+    padding-bottom: 1%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(to right top,rgba(90, 93, 161, 0.61),rgba(165, 205, 218, 0.41));
+    backdrop-filter: blur(1rem);
+    border-radius: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.firstMain .title{
+    padding-left: 3%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    letter-spacing: 1px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.title .textBorderDesign{
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.774);
+    font-family: serif;
+}
+.title p{
+    padding-left: 1%;
+    font-size: 1.1rem;
+}
+.firstMain .textbox{
+    color: rgb(235, 235, 235);
+    font-size: 1.2rem;
+    width: 92%;
+    height: 80%;
+    padding-top: 2%;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.secondMain{
+    margin: 0 auto;
+    padding-bottom: 1%; padding-top: 1%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(to right top,rgba(144, 150, 221, 0.61),rgba(148, 195, 211, 0.41));
+    backdrop-filter: blur(1rem);
+    border-radius: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(235, 235, 235);
+}
+.secondMainTitle, .thirdMainTitle{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1% auto;
+}
+.secondTextBox, .thirdTextBox{
+    font-size: 1.2rem;
+    width: 90%;
+    padding-top: 3%;
+    letter-spacing: 1px;
+}
+.secondMain p{
+    padding: 0 5%;
+}
+.secondTextBox a{
+    text-decoration: none;
+    color: lightskyblue;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    display: inline-block;
+}
+.thirdTextBox a:hover, .secondTextBox a:hover{
+    color: rgba(135, 206, 250, 0.692);
+    transform: scale(0.9);
+}
+.secondMain img{
+    width: 95%;
+    border-radius: 0.4rem;
+    box-shadow: 1px 1px 10px 2px #000;
+    margin-top: 2%;
+}
+.mobileContainer {
+    margin: 4% auto;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+.mobile{
+    position: relative;
+    width: 335px;
+    height: 640px;
+    margin: 1% auto;
+    border: 16px #fff solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    overflow-y: visible;
+}
+.mobile:before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+}
+.mobile::after{
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: rgb(143, 143, 143);
+    border-radius: 50%;
+}
+.firstCodePen, .secondCodePen{
+    width: 90%;
+    height: 45%;
+}
+.thirdMain{
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding-bottom: 1%; padding-top: 1%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(to right top,rgba(144, 150, 221, 0.61),rgba(148, 195, 211, 0.41));
+    backdrop-filter: blur(1rem);
+    border-radius: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(235, 235, 235);
+}
+.thirdPhoto{
+    text-align: center;
+    margin-top: 2%;
+}
+.thirdPhoto img{
+    border-radius: 0.4rem;
+    box-shadow: 1px 1px 10px 2px #000;
+    width: 45%;
+    transition-duration: 0.3s;
+}
+.thirdPhoto img:hover{
+    transform: scale(0.9);
+}
+.thirdTextBox a{
+    text-decoration: none;
+    color: lightskyblue;
+    font-size: 1.5rem;
+    transition-duration: 0.4s;
+    display: inline-block;
+}
+@media (max-width: 770px) {
+    .social, .freecodecamp{
+        display: none;
+    }
+    .social1{
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+    .social1 ul{
+        position: relative;
+        top: 5%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social1 a:hover{
+        transform: scale(0.9);
+    }
+    .social1 ul li a{
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        padding: 10px;
+        transition-duration: 0.2s;
+        background: rgba(255, 255, 255, 0.247);
+        backdrop-filter: blur(0.8rem);
+        border-radius: 5px;
+        transition-duration: 0.3s;
+    }
+    .social1 ul li{
+        padding: 10px;
+        display: inline-block;
+        transition-duration: 0.3s;
+    }
+    .firstMain, .secondMain, .thirdMain{
+        width: 90%;
+    }
+}
+@media (max-width: 377px) {
+    .secondMain p{
+        font-size: 17px;
+        padding: 2% 0;
+    }
+}
