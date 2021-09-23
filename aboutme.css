@@ -324,4 +324,8 @@ header img{
         font-size: 17px;
         padding: 2% 0;
     }
+    .mobile{
+        max-width: 80%;
+        height: 550px;
+    }
 }
