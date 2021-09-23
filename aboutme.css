@@ -121,7 +121,7 @@ header img{
     align-items: baseline;
 }
 .title .textBorderDesign{
-    font-size: 4rem;
+    font-size: 50px;
     color: rgba(255, 255, 255, 0);
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.774);
     font-family: serif;
