@@ -43,7 +43,18 @@ body{
 }
 .social a:hover{
     transform: scale(0.9);
-    color: rgba(0, 0, 0, 0.699);
+    color: rgba(201, 201, 201, 0.747);
+}
+.fa-moon{
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(202, 202, 202);
+    /* text-shadow: 0 0 5px rgba(223, 223, 223, 0.705),
+    0 0 10px rgba(190, 189, 189, 0.459),
+    0 0 20px rgba(130, 149, 149, 0.359); */
+}
+.fa-sun{
+    font-size: 24px;
 }
 .freecodecamp{
     position: fixed;
@@ -77,6 +88,9 @@ body{
     backdrop-filter: blur(0.8rem);
     color: #000;
     border: 1px solid rgba(255, 255, 255, 0);
+}
+header .fas{
+    display: none;
 }
 header{
     width: 100%;
@@ -125,6 +139,7 @@ header img{
     color: rgba(255, 255, 255, 0);
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.774);
     font-family: serif;
+    padding: 15px 0;
 }
 .title p{
     padding-left: 1%;
@@ -202,7 +217,8 @@ header img{
     width: 335px;
     height: 640px;
     margin: 1% auto;
-    border: 16px #fff solid;
+    border: 16px solid;
+    color: rgb(255, 255, 255);
     border-top-width: 60px;
     border-bottom-width: 60px;
     border-radius: 36px;
@@ -217,7 +233,7 @@ header img{
     top: -30px;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #333;
+    background: rgb(97, 97, 97);
     border-radius: 10px;
 }
 .mobile::after{
@@ -278,6 +294,9 @@ header img{
 @media (max-width: 770px) {
     .social, .freecodecamp{
         display: none;
+    }
+    header .fas{
+        display: block;
     }
     .social1{
         display: block;
