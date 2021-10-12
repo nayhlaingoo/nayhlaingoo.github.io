@@ -321,8 +321,8 @@ header img{
         width: 100%;
         height: 40px;
         background-color: rgba(155, 155, 155, 0.582);
-        backdrop-filter: blur(1.5rem);
-        -webkit-backdrop-filter: blur(1rem);
+        backdrop-filter: blur(2rem);
+        -webkit-backdrop-filter: blur(2rem);
         position: fixed;
         z-index: 1;
     }
