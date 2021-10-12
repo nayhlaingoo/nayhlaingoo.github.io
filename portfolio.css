@@ -117,7 +117,7 @@ h2{
 @media (max-width:1024px) {
     .first-section-body, .second-section-body, .third-section-body{
         display: grid;
-/*         grid-template-columns: 1fr 1fr 1fr 5%; */
+        grid-template-columns: 1fr 1fr 1fr 5%;
     }
     .details{
         grid-row: 2/3;
