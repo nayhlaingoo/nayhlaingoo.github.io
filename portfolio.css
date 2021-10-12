@@ -131,7 +131,8 @@ h2{
     .images img{
 /*         width: 70%; */
         width: 40%;
-        height: 200px;
+/*         height: 200px; */
+        height: 180%;
         align-self: center;
         justify-self: center;
     }
