@@ -127,11 +127,10 @@ h2{
     .images{
         grid-column: 2/3;
         justify-self: center;
-        display: flex;
     }
     .images img{
 /*         width: 70%; */
-        width: 10%;
+        width: 40%;
         height: 200px;
         align-self: center;
         justify-self: center;
