@@ -133,6 +133,7 @@ h2{
         width: 40%;
 /*         height: 200px; */
         height: 180px;
+        display: flex;
         align-self: center;
         justify-self: center;
     }
