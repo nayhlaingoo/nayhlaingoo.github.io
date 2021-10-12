@@ -125,6 +125,7 @@ header img{
     flex-wrap: wrap;
     background: linear-gradient(to right top,rgba(90, 93, 161, 0.61),rgba(165, 205, 218, 0.41));
     backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     border-radius: 2rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -171,6 +172,7 @@ header img{
     flex-wrap: wrap;
     background: linear-gradient(to right top,rgba(144, 150, 221, 0.61),rgba(148, 195, 211, 0.41));
     backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     border-radius: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -270,6 +272,7 @@ header img{
     flex-wrap: wrap;
     background: linear-gradient(to right top,rgba(144, 150, 221, 0.61),rgba(148, 195, 211, 0.41));
     backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     border-radius: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
