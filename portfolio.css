@@ -129,7 +129,8 @@ h2{
         justify-self: center;
     }
     .images img{
-        width: 70%;
+/*         width: 70%; */
+        width: 50%;
         height: 200px;
         align-self: center;
         justify-self: center;
