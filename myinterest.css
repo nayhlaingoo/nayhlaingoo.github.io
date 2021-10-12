@@ -72,8 +72,8 @@ body{
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(to right top,rgba(255, 255, 255, 0.26),rgba(107, 107, 107, 0.356));
-    backdrop-filter: blur(0.8rem);
-    -webkit-backdrop-filter: blur(0.8rem);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     border-radius: 10px;
 }
 .mystory{
