@@ -24,7 +24,8 @@ body{
 }
 .social{
     background: rgba(255, 255, 255, 0.24);
-    backdrop-filter: blur(0.8rem);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     border-radius: 0px 10px 10px 0px;
     position: fixed;
     bottom: 25%;
@@ -92,7 +93,8 @@ body{
 }
 .freecodecamp a:hover{
     background: rgba(255, 255, 255, 0.514);
-    backdrop-filter: blur(0.8rem);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     color: #000;
     border: 1px solid rgba(255, 255, 255, 0);
 }
@@ -124,8 +126,8 @@ header img{
     align-content: space-around;
     flex-wrap: wrap;
     background: linear-gradient(to right top,rgba(90, 93, 161, 0.61),rgba(165, 205, 218, 0.41));
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1.7rem);
+    -webkit-backdrop-filter: blur(1.7rem);
     border-radius: 2rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -171,8 +173,8 @@ header img{
     align-content: space-around;
     flex-wrap: wrap;
     background: linear-gradient(to right top,rgba(144, 150, 221, 0.61),rgba(148, 195, 211, 0.41));
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1.7rem);
+    -webkit-backdrop-filter: blur(1.7rem);
     border-radius: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -271,8 +273,8 @@ header img{
     align-content: space-around;
     flex-wrap: wrap;
     background: linear-gradient(to right top,rgba(144, 150, 221, 0.61),rgba(148, 195, 211, 0.41));
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1.7rem);
+    -webkit-backdrop-filter: blur(1.7rem);
     border-radius: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -356,8 +358,8 @@ header img{
         width: 100%;
         height: 100vh;
         background-color: rgba(224, 224, 224, 0.5%);
-        backdrop-filter: blur(2rem);
-        -webkit-backdrop-filter: blur(2rem);
+        backdrop-filter: blur(3rem);
+        -webkit-backdrop-filter: blur(3rem);
         position: fixed;
         z-index: 1;
         visibility: hidden;
