@@ -130,6 +130,7 @@ h2{
     }
     .images img{
 /*         width: 70%; */
+        grid-column: 2/3;
         width: 10%;
         height: 200px;
         align-self: center;
