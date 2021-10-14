@@ -149,6 +149,9 @@ h2{
     .images, .details1{
         margin: auto;
     }
+    .images img{
+        width: auto;
+    }
     .details1{
         display: block;
         text-align: center;
