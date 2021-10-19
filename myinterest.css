@@ -1,68 +1,50 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 body{
-    width: 100%;
-    height: 100%;
-    background-image: url(./Images/neon5crop.jpg);
-    backdrop-filter: blur(2rem);
-    -webkit-backdrop-filter: blur(2rem);
-    background-size: cover;
-    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .main{
-    height: 75vh;
-    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    background: #fff;
+}
+ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+    list-style: none;
+    font-weight: 700;
 }
-.main img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: bottom;
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    margin-left: 5rem;
 }
-.title{
+.logo{
     position: absolute;
-    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Heebo', sans-serif;
+    display: flex;
 }
-.title h1, .title h2{
-    color: rgba(255, 255, 255, 0);
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.562);
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-family: serif;
-    font-weight: lighter;
-}
-.title h1{
-    animation-delay: 0.4s;
-}
-.title h2{
-    padding: 0px 0px 40px 0px;
-}
-.title p{
-    font-size: 25px;
-    letter-spacing: 5px;
-    font-family: 'Roboto', serif;
-    font-weight: lighter;
-    text-shadow: 2px 2px 2px #000;
-    animation-delay: 0.3s;
-}
-.first-container, .second-container{
+.firstPage, .secondPage, .thirdPage{
     width: 100%;
     height: 100%;
-    padding: 10px 0px;
+    background: #000;
 }
-.second-container{
-    padding-bottom: 8%;
-}
-.myskill{
+.container{
     width: 90%;
     margin: auto;
     padding: 40px 0px;
@@ -71,52 +53,90 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to right top,rgba(255, 255, 255, 0.26),rgba(107, 107, 107, 0.356));
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
-    border-radius: 10px;
 }
-.mystory{
-    font-family: 'Roboto', serif;
+.intro{
     font-weight: lighter;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 40%;
     padding: 0px 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 }
-.mystory h2{
-    font-size: 32px;
+.intro h2{
+    font-size: 5rem;
+    font-family: sans-serif;
     height: fit-content;
-    color: rgba(255, 255, 255, 0.719);
 }
-.mystory p{
+.intro p{
     letter-spacing: 1px;
     font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.719);
     padding: 20px 0px;
 }
 .images{
     flex-grow: 0;
     flex-shrink: 1;
-    /* flex-basis: 50%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
-
+.images img{
+    padding: 2px;
+    width: 400px;
+}
 .images .image-set-1, .images .image-set-2{
     display: flex;
     flex-direction: row;
 }
-.images img{
-    filter: grayscale(1);
-    transition-duration: 0.5s;
-    cursor: pointer;
-    border-radius: 2px;
-    padding: 2px;
+.images .image-set-3{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
 }
-.images img:hover{
-    filter: grayscale(0);
-    transform: scale(0.9);
+.intro1{
+    display: none;
+}
+@media (max-width: 784px) {
+    .secondPage .intro{
+        display: none;
+    }
+    .intro1{
+        display: block;
+        font-weight: lighter;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 40%;
+        padding: 0px 10px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro1 h2{
+        font-size: 5rem;
+        font-family: sans-serif;
+        height: fit-content;
+    }
+    .intro1 p{
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        padding: 20px 0px;
+    }
+}
+@media (max-width: 550px) {
+    nav{
+        padding: 1% 2%;
+        height: 50px;
+    }
+    a{
+        margin-left: 1rem;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .images img{
+        width: 340px;
+    }
 }

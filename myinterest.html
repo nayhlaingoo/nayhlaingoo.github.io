@@ -8,8 +8,10 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- google font heebo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="myinterest.css">
     <meta charset="UTF-8">
@@ -19,73 +21,71 @@
 </head>
 <body>
 
-    <div class="main">
-        <img src="./Images/neon5.jpg" width="100%" height="400" alt="">
-        <div class="title">
-            <h1 class="animate__animated animate__fadeInDown">Designing</h1>
-            <h2 class="animate__animated animate__fadeInDown">Coding & Art</h2>
-            <p class="animate__animated animate__flipInX">My</p>
-            <p class="animate__animated animate__flipInX">Interest</p>
-        </div>
-    </div>
-    
-    <div class="first-container animate__animated animate__fadeInUp">
-        <div class="myskill">
-            <div class="mystory">
-                <h2>My Personal Skill</h2>
-                <p> 
-                    My unique personal skill is drawing and sketching. I have been doing that since 2015. 
-                    I am type of person who enjoys watching videos so I have learnt how to draw by watching videos on Youtube.
-                     Often times I would pencil sketch something like a 3D art or human faces. 
-                    I have sketched pictures of my friends. I am constantly improving my skills on how to sketch.
-                </p>
-                <p>
-                    You can see some of my sketches and 3D arts in pictures.
-                </p>
-            </div>
+    <section class="main">
+        <nav class="title">
+            <h1 class="slidingText">My Personal Skill</h1>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+        <h1 class="logo">Designing</h1>
+        
+    </section>
 
-            <div class="images">
-                <div class="image-set-1">
-                    <img src="./Images/drawing1.jpg" width="100" height="120" alt="">
-                    <img src="./Images/drawing3crop.jpeg" width="110" height="120" alt="">
-                    <img src="./Images/drawing5.jpg" width="100" height="120" alt="">
-                </div>
-                <div class="image-set-2">
-                    <img src="./Images/drawing6.jpeg" width="100" height="120" alt="">
-                    <img src="./Images/drawing7.jpg" width="110" height="120" alt="">
-                    <img src="./Images/drawing4.jpg" width="100" height="120" alt="">
-                </div>  
-            </div>
+    <section class="firstPage">
+        <div class="container">
+        <div class="intro">
+            <h2>Art Design</h2>
+            <p>My unique personal skill is drawing and sketching.
+                I have been doing that since 2015.
+                I am type of person who enjoys watching videos 
+                so I have learnt how to draw by watching videos on Youtube. 
+                Often times I would pencil sketch something like a 3D art or human faces. 
+                I have sketched pictures of my friends. 
+                I am constantly improving my skills on how to sketch.</p>
         </div>
-    </div>
+        <div class="images">
+            <div class="image-set-2">
+                <img src="./Images/drawing4.jpg" alt="">
+            </div>  
+        </div>
+        </div>
+    </section>
 
-    <div class="second-container">
-        <div class="myskill" data-aos="fade-up" data-aos-duration="980">
-            <div class="mystory">
-                <h2>Gaming</h2>
-                <p>
-                    I don't play games that often but some of my favorite games are Call of Duty Mobile, 
-                    Call of Duty Warzone and Pro Evolution Soccer. 
-                    I have been playing Call Of Duty Mobile since season 1. 
-                    I am at the Legendary rank in battle royale mode 
-                    which is the highest level in Call of Duty Mobile. I am a fan of FPS games, 
-                    and I prefer Call of Duty over PUBG in terms of gameplay and
-                    graphics. I don't mean PUBG is bad. Different type of players will have different tastes. 
-                </p>
+    <section class="secondPage">
+        <div class="container">
+            <div class="intro1">
+                <h2>Art Design</h2>
+                <p>You can see some of my sketches and arts in pictures.
+                    Thank you for visiting...</p>
             </div>
-            <div class="images">
-                <div class="image-set-1">
-                    <img src="./Images/GarenaWorld.png" width="110" height="100" alt="">
-                    <img src="./Images/codwarzone.png" width="100" height="100" alt="">
-                    <img src="./Images/topic_pes2021.jpg" width="100" height="100" alt="">
-                </div>
+        <div class="images">
+            <div class="image-set-1">
+                <img src="./Images/drawing1.jpg" alt="">
             </div>
         </div>
-    </div>
+        <div class="intro">
+            <h2>Art Design</h2>
+            <p>You can see some of my sketches and arts in pictures.
+                Thank you for visiting...</p>
+        </div>
+        </div>
+    </section>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+    integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" 
+    integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./myinterest.js"></script>
 </body>
 </html>
